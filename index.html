@@ -7,7 +7,7 @@
   <title>Surf Nature Murcia | Surf en la costa murciana</title>
   <meta name="description" content="Escuela de surf en Murcia. Clases, cursos y experiencias en la costa murciana. Vive el surf en la naturaleza.">
 
-  <!-- CSS SYSTEM -->
+  <!-- CSS SYSTEM (ORDEN CRÍTICO) -->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/styles.css">
@@ -16,33 +16,134 @@
 <body>
 
   <!-- HEADER -->
-  <header>
-    <div class="container">
-      <h1>Surf Nature Murcia</h1>
+  <header class="header">
+    <div class="container header__content">
+
+      <h1 class="logo">Surf Nature Murcia</h1>
+
+      <nav class="nav">
+        <a href="#actividades">Actividades</a>
+        <a href="#confianza">Nosotros</a>
+        <a href="#filosofia">Filosofía</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
     </div>
   </header>
 
-  <!-- MAIN -->
-  <main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__content">
 
-    <!-- HERO -->
-    <section>
-      <div class="container">
-        <h2>Surf en Murcia</h2>
+      <h2 class="hero__title">
+        Surf en la costa de Murcia
+      </h2>
 
-        <p>
-          Clases de surf en Murcia. Más que una experiencia, una forma de vida.
-        </p>
+      <p class="hero__text">
+        Clases de surf en Murcia para todos los niveles. Vive el mar, aprende surf y conecta con la naturaleza.
+      </p>
 
-        <a href="#" class="btn btn-primary">Ver actividades</a>
-        <a href="#" class="btn">Ver precios</a>
+      <div class="hero__cta">
+        <a href="#actividades" class="btn btn-primary">Ver actividades</a>
+        <a href="#actividades" class="btn btn-secondary">Ver precios</a>
       </div>
-    </section>
 
-  </main>
+    </div>
+  </section>
+
+  <!-- ACTIVIDADES -->
+  <section class="section" id="actividades">
+    <div class="container">
+
+      <h2 class="section__title">Actividades y precios</h2>
+
+      <div class="grid">
+
+        <div class="card">
+          <h3>Clase de iniciación</h3>
+          <p>2 horas · Primer contacto con el surf</p>
+          <span class="price">40€</span>
+        </div>
+
+        <div class="card">
+          <h3>Perfeccionamiento</h3>
+          <p>Técnica, equilibrio y mejora en el agua</p>
+          <span class="price">45€</span>
+        </div>
+
+        <div class="card">
+          <h3>Camp de surf</h3>
+          <p>Experiencia completa en la costa murciana</p>
+          <span class="price">Desde 160€</span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONFIANZA -->
+  <section class="section section--alt" id="confianza">
+
+    <div class="container">
+
+      <h2 class="section__title">¿Por qué elegir Surf Nature Murcia?</h2>
+
+      <div class="grid">
+
+        <div class="card">
+          <h3>Instructores con experiencia</h3>
+          <p>Profesionales del surf con años enseñando en el mar.</p>
+        </div>
+
+        <div class="card">
+          <h3>Seguridad garantizada</h3>
+          <p>Sesiones adaptadas a tu nivel y condiciones del mar.</p>
+        </div>
+
+        <div class="card">
+          <h3>Grupos reducidos</h3>
+          <p>Aprendizaje más rápido con atención personalizada.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FILOSOFÍA -->
+  <section class="section" id="filosofia">
+
+    <div class="container">
+
+      <h2 class="section__title">Nuestra filosofía</h2>
+
+      <p>
+        El surf no es solo un deporte. Es conexión con el mar, respeto por la naturaleza y una forma de vida basada en el equilibrio y el aprendizaje constante.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta" id="contacto">
+
+    <div class="container">
+
+      <h2>¿Listo para tu primera ola?</h2>
+
+      <p>Reserva tu experiencia de surf en Murcia y empieza hoy mismo.</p>
+
+      <a href="#" class="btn btn-primary">Contactar ahora</a>
+
+    </div>
+
+  </section>
 
   <!-- FOOTER -->
-  <footer>
+  <footer class="footer">
     <div class="container">
       <p>© 2026 Surf Nature Murcia</p>
     </div>

@@ -1,30 +1,134 @@
-* {
+/* =========================
+   RESET MODERNO BASE
+========================= */
+
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* =========================
+   HTML / BODY BASE
+========================= */
+
 html {
+  font-size: 16px;
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: var(--font-body);
+  font-family: var(--font-base);
+  background-color: var(--color-bg);
   color: var(--color-text);
-  background: var(--color-white);
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-img {
-  max-width: 100%;
-  display: block;
+/* =========================
+   TYPOGRAPHY RESET
+========================= */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-primary);
 }
+
+p {
+  color: var(--color-muted);
+}
+
+/* =========================
+   LINKS
+========================= */
 
 a {
   text-decoration: none;
   color: inherit;
 }
 
+/* =========================
+   LISTS
+========================= */
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* =========================
+   IMAGES
+========================= */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* =========================
+   BUTTON RESET
+========================= */
+
 button {
   font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* =========================
+   FORMS
+========================= */
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  outline: none;
+}
+
+/* =========================
+   FOCUS (ACCESIBILIDAD)
+========================= */
+
+:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* =========================
+   SELECTION
+========================= */
+
+::selection {
+  background: var(--color-accent);
+  color: white;
+}
+
+/* =========================
+   SCROLLBAR (OPCIONAL PREMIUM FEEL)
+========================= */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent);
 }

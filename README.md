@@ -50,6 +50,9 @@ surfnaturemurcia-v2/
 │
 ├── assets/
 ├── css/
+│   ├── reset.css
+│   ├── variables.css
+│   └── styles.css
 ├── js/
 ├── images/
 ├── docs/
@@ -59,28 +62,65 @@ surfnaturemurcia-v2/
 
 ## Development Approach
 
-The project will follow a structured workflow:
+The project follows a structured product development workflow:
 
-1. Audit of the current website.
-2. Information architecture planning.
-3. UX/UI redesign.
-4. Frontend development.
-5. SEO optimization.
-6. Testing and quality assurance.
-7. Deployment and migration.
+Audit of the current website and identification of UX/UI issues.  
+Definition of business goals, conversion strategy and user flow.  
+UX/UI redesign with focus on clarity, hierarchy and conversion.  
+Creation of a scalable design system (colors, typography, spacing, components).  
+Implementation of frontend structure using HTML + modular CSS architecture.  
+Initial homepage development (hero, sections, pricing cards).  
+Iterative visual refinement and UI polishing.  
+SEO optimization (structure, headings, semantic HTML, metadata).  
+Testing, accessibility validation and responsive optimization.  
+Deployment preparation and continuous improvement cycle.  
+
+---
 
 ## Learning Journey
 
-This project is being developed as part of a professional web development learning journey, documenting architecture decisions, development processes and best practices from start to finish.
+This project is part of a professional web development learning process focused on building a real-world portfolio project from scratch.
 
-The goal is not only to build a production-ready website, but also to create a complete portfolio project that demonstrates technical growth, problem-solving skills and professional development practices.
+It documents:
+
+- architectural decisions and reasoning  
+- design system creation and evolution  
+- UX/UI design process and iteration  
+- frontend implementation workflow  
+- performance and SEO optimization practices  
+- continuous improvement mindset  
+
+The goal is to demonstrate not just the final result, but the complete professional process of building a production-ready website.
+
+---
 
 ## Status
 
-✅ Repository created
+🟢 Repository initialized  
+🟢 Development environment configured  
+🟢 Project structure created  
+🟢 Design system foundation implemented  
+🟢 Initial homepage UI completed  
+🔄 UI refinement and polish phase in progress  
+🔄 UX audit and improvement phase ongoing  
 
-✅ Development environment configured
+---
 
-✅ Project documentation initialized
+## Current Focus
 
-🔄 Website audit in progress
+Refining visual hierarchy and spacing  
+Improving perceived quality and premium feel  
+Enhancing UX clarity and conversion flow  
+Strengthening brand identity and surf lifestyle positioning  
+Preparing interface for portfolio-level presentation  
+
+---
+
+## Next Steps
+
+UI polish and visual depth enhancement  
+Improved hero section with stronger branding impact  
+Image integration and visual storytelling  
+Microinteractions and hover improvements  
+Mobile-first UX optimization  
+Expansion into full site structure (About, Activities, Contact)  

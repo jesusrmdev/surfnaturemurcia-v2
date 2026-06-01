@@ -1,9 +1,17 @@
+/* =========================
+   LAYOUT BASE
+========================= */
+
 .container {
   width: 100%;
   max-width: var(--container-width);
   margin: 0 auto;
   padding: 0 var(--space-md);
 }
+
+/* =========================
+   HEADER
+========================= */
 
 .header {
   position: sticky;
@@ -43,26 +51,32 @@
   color: var(--color-primary);
 }
 
+/* =========================
+   HERO
+========================= */
+
 .hero {
-  padding: var(--space-xxl) 0;
+  padding: 120px 0;
   background: linear-gradient(
     180deg,
-    rgba(11,58,90,0.05),
-    transparent
+    rgba(11,58,90,0.06),
+    transparent 70%
   );
 }
 
 .hero__content {
   text-align: center;
-  max-width: 700px;
+  max-width: 720px;
   margin: 0 auto;
 }
 
 .hero__title {
-  font-size: 48px;
+  font-size: 56px;
   font-family: var(--font-heading);
   color: var(--color-primary);
   margin-bottom: var(--space-md);
+  line-height: 1.05;
+  letter-spacing: -1px;
 }
 
 .hero__text {
@@ -71,13 +85,26 @@
   margin-bottom: var(--space-lg);
 }
 
+.hero__cta {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
 .btn {
   display: inline-block;
   padding: 12px 22px;
-  border-radius: var(--border-radius);
-  font-weight: 500;
-  transition: 0.3s ease;
+  border-radius: 12px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
   font-size: 14px;
+  transition: 0.3s ease;
 }
 
 .btn-primary {
@@ -100,6 +127,10 @@
   color: white;
 }
 
+/* =========================
+   SECTIONS
+========================= */
+
 .section {
   padding: var(--space-xxl) 0;
 }
@@ -109,11 +140,17 @@
 }
 
 .section__title {
-  font-size: 28px;
+  font-size: 34px;
   font-family: var(--font-heading);
   text-align: center;
   margin-bottom: var(--space-lg);
+  letter-spacing: -0.5px;
+  color: var(--color-primary);
 }
+
+/* =========================
+   GRID
+========================= */
 
 .grid {
   display: grid;
@@ -121,36 +158,98 @@
   gap: var(--space-md);
 }
 
+/* =========================
+   CARDS (PREMIUM UI)
+========================= */
+
 .card {
   background: white;
-  padding: var(--space-lg);
-  border-radius: var(--border-radius);
-  box-shadow: var(--shadow-sm);
-  transition: 0.3s;
-  border: 1px solid rgba(0,0,0,0.05);
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.04);
 }
 
 .card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
+  transform: translateY(-8px);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.08);
 }
 
 .card h3 {
   font-family: var(--font-heading);
   color: var(--color-primary);
   margin-bottom: var(--space-sm);
+  font-size: 18px;
 }
 
+.card p {
+  opacity: 0.8;
+  font-size: 14px;
+  margin-bottom: var(--space-sm);
+}
+
+/* =========================
+   PRICE (CONVERSION FOCUS)
+========================= */
+
 .price {
+  font-size: 18px;
+  font-weight: 700;
   color: var(--color-accent);
-  font-weight: 600;
   display: inline-block;
   margin-top: var(--space-sm);
 }
 
+/* =========================
+   CTA FINAL
+========================= */
+
+.cta {
+  padding: 120px 0;
+  text-align: center;
+  background: linear-gradient(
+    135deg,
+    rgba(11,58,90,0.10),
+    rgba(0,0,0,0.02)
+  );
+}
+
+.cta h2 {
+  font-size: 38px;
+  font-family: var(--font-heading);
+  color: var(--color-primary);
+  margin-bottom: var(--space-md);
+  letter-spacing: -0.5px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+  padding: var(--space-lg) 0;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
 @media (max-width: 768px) {
+
+  .hero {
+    padding: 90px 0;
+  }
+
   .hero__title {
-    font-size: 34px;
+    font-size: 38px;
+  }
+
+  .section__title {
+    font-size: 26px;
   }
 
   .grid {
@@ -159,5 +258,10 @@
 
   .nav {
     display: none;
+  }
+
+  .hero__cta {
+    flex-direction: column;
+    align-items: center;
   }
 }
