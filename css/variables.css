@@ -1,0 +1,29 @@
+:root {
+  /* 🎨 COLORS */
+  --color-primary: #0B3A5A;   /* azul profundo mar */
+  --color-secondary: #4DA8DA; /* azul claro agua */
+  --color-accent: #18C29C;    /* turquesa CTA */
+  --color-sand: #E8D9C5;      /* arena */
+  --color-text: #2B2B2B;
+  --color-white: #FFFFFF;
+
+  /* ✍️ TYPOGRAPHY */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* 📏 SPACING SYSTEM */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-xxl: 64px;
+
+  /* 🧱 LAYOUT */
+  --container-width: 1200px;
+  --border-radius: 12px;
+
+  /* ⚡ SHADOWS */
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+  --shadow-md: 0 6px 20px rgba(0,0,0,0.12);
+}
