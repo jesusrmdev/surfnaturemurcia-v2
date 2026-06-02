@@ -1,80 +1,94 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Surf Nature Murcia | Surf en la costa murciana</title>
-  <meta name="description" content="Escuela de surf en Murcia. Clases, cursos y experiencias en la costa murciana. Vive el surf en la naturaleza.">
-
-  <!-- CSS SYSTEM (ORDEN CRÍTICO) -->
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/variables.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clases de surf en Murcia | Surf Nature Murcia</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
 
-  <!-- HEADER -->
+  <!-- =========================
+       HEADER
+  ========================== -->
   <header class="header">
     <div class="container header__content">
 
-      <h1 class="logo">Surf Nature Murcia</h1>
+      <div class="logo">Surf Nature Murcia</div>
 
       <nav class="nav">
         <a href="#actividades">Actividades</a>
-        <a href="#confianza">Nosotros</a>
-        <a href="#filosofia">Filosofía</a>
+        <a href="#nosotros">Nosotros</a>
         <a href="#contacto">Contacto</a>
       </nav>
 
     </div>
   </header>
 
-  <!-- HERO -->
+  <!-- =========================
+       HERO
+  ========================== -->
   <section class="hero">
+
+    <div class="hero__overlay"></div>
+
     <div class="container hero__content">
 
-      <h2 class="hero__title">
-        Surf en la costa de Murcia
-      </h2>
+      <h1 class="hero__title">Clases de surf en Murcia</h1>
+
+      <p class="hero__subtitle">
+        Aprende a surfear en un entorno natural
+      </p>
 
       <p class="hero__text">
-        Clases de surf en Murcia para todos los niveles. Vive el mar, aprende surf y conecta con la naturaleza.
+        Para todos los niveles y edades
       </p>
 
       <div class="hero__cta">
         <a href="#actividades" class="btn btn-primary">Ver actividades</a>
-        <a href="#actividades" class="btn btn-secondary">Ver precios</a>
+        <a href="https://wa.me/TUNUMERO" class="btn btn-secondary">Reservar por WhatsApp</a>
       </div>
 
     </div>
   </section>
 
-  <!-- ACTIVIDADES -->
-  <section class="section" id="actividades">
+  <!-- =========================
+       ACTIVIDADES (2 COLUMNAS, 4 ITEMS = 2 FILAS)
+  ========================== -->
+  <section id="actividades" class="section">
     <div class="container">
 
-      <h2 class="section__title">Actividades y precios</h2>
+      <h2 class="section__title">Actividades</h2>
 
-      <div class="grid">
+      <div class="grid grid--2">
 
         <div class="card">
-          <h3>Clase de iniciación</h3>
-          <p>2 horas · Primer contacto con el surf</p>
+          <h3>Iniciación</h3>
           <span class="price">40€</span>
+          <p>Ideal para empezar desde cero y aprender lo básico del surf.</p>
+          <a href="https://wa.me/TUNUMERO" class="btn btn-primary">Reservar</a>
         </div>
 
         <div class="card">
           <h3>Perfeccionamiento</h3>
-          <p>Técnica, equilibrio y mejora en el agua</p>
-          <span class="price">45€</span>
+          <span class="price">40€</span>
+          <p>Mejora tu técnica y control sobre la tabla.</p>
+          <a href="https://wa.me/TUNUMERO" class="btn btn-primary">Reservar</a>
         </div>
 
         <div class="card">
-          <h3>Camp de surf</h3>
-          <p>Experiencia completa en la costa murciana</p>
-          <span class="price">Desde 160€</span>
+          <h3>Experiencia Premium</h3>
+          <span class="price">160€</span>
+          <p>Experiencia completa de surf con monitor personalizado.</p>
+          <a href="https://wa.me/TUNUMERO" class="btn btn-primary">Reservar</a>
+        </div>
+
+        <div class="card">
+          <h3>Alquiler de material</h3>
+          <span class="price">desde 18€</span>
+          <p>Tablas de surf adaptadas a todos los niveles.</p>
+          <a href="https://wa.me/TUNUMERO" class="btn btn-primary">Reservar</a>
         </div>
 
       </div>
@@ -82,70 +96,65 @@
     </div>
   </section>
 
-  <!-- CONFIANZA -->
-  <section class="section section--alt" id="confianza">
-
+  <!-- =========================
+       NOSOTROS (3 COLUMNAS)
+  ========================== -->
+  <section id="nosotros" class="section section--alt">
     <div class="container">
 
-      <h2 class="section__title">¿Por qué elegir Surf Nature Murcia?</h2>
+      <h2 class="section__title">Nosotros</h2>
 
       <div class="grid">
 
         <div class="card">
-          <h3>Instructores con experiencia</h3>
-          <p>Profesionales del surf con años enseñando en el mar.</p>
+          <h3>Experiencia en el mar</h3>
+          <p>Más de años formando surfistas en la costa de Murcia.</p>
         </div>
 
         <div class="card">
-          <h3>Seguridad garantizada</h3>
-          <p>Sesiones adaptadas a tu nivel y condiciones del mar.</p>
+          <h3>Instructores titulados</h3>
+          <p>Equipo certificado por la Federación Española de Surf (FESurfing).</p>
         </div>
 
         <div class="card">
-          <h3>Grupos reducidos</h3>
-          <p>Aprendizaje más rápido con atención personalizada.</p>
+          <h3>Conexión con la naturaleza</h3>
+          <p>Enseñamos surf desde el respeto al mar y al entorno natural.</p>
         </div>
 
       </div>
 
     </div>
-
   </section>
 
-  <!-- FILOSOFÍA -->
-  <section class="section" id="filosofia">
-
+  <!-- =========================
+       CTA FINAL
+  ========================== -->
+  <section class="cta">
     <div class="container">
 
-      <h2 class="section__title">Nuestra filosofía</h2>
+      <h2>¿Listo para empezar a surfear?</h2>
 
-      <p>
-        El surf no es solo un deporte. Es conexión con el mar, respeto por la naturaleza y una forma de vida basada en el equilibrio y el aprendizaje constante.
-      </p>
+      <a href="https://wa.me/TUNUMERO" class="btn btn-primary">
+        Reservar clase por WhatsApp
+      </a>
 
     </div>
-
   </section>
 
-  <!-- CTA FINAL -->
-  <section class="cta" id="contacto">
-
+  <!-- =========================
+       FOOTER
+  ========================== -->
+  <footer class="footer" id="contacto">
     <div class="container">
 
-      <h2>¿Listo para tu primera ola?</h2>
+      <p>Surf Nature Murcia © 2026</p>
 
-      <p>Reserva tu experiencia de surf en Murcia y empieza hoy mismo.</p>
+      <div class="social">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Email</a>
+      </div>
 
-      <a href="#" class="btn btn-primary">Contactar ahora</a>
-
-    </div>
-
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container">
-      <p>© 2026 Surf Nature Murcia</p>
     </div>
   </footer>
 
