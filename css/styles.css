@@ -1,4 +1,3 @@
-
 /* =========================
    RESET
 ========================= */
@@ -113,10 +112,10 @@ body {
   position: relative;
   z-index: 2;
   color: #fff;
-  max-width: 800px;
+  max-width: 700px;
   margin: 0 auto;
 
-  transform: translateY(-20vh); /* leve ajuste hacia arriba */
+  transform: translateY(-20vh);
 }
 
 /* H1 */
@@ -313,7 +312,27 @@ body {
 }
 
 /* =========================
-   RESPONSIVE
+   RESPONSIVE INTERMEDIO
+========================= */
+
+/* =========================
+   RESPONSIVE INTERMEDIO
+========================= */
+
+@media (max-width: 1200px) {
+  .hero__content {
+    transform: translateY(-24vh);
+  }
+}
+
+@media (max-width: 992px) {
+  .hero__content {
+    transform: translateY(-28vh);
+  }
+}
+
+/* =========================
+   RESPONSIVE MOBILE
 ========================= */
 
 @media (max-width: 768px) {
@@ -337,6 +356,6 @@ body {
   }
 
   .hero__content {
-    transform: translateY(-3vh);
+    transform: translateY(-20vh);
   }
 }
