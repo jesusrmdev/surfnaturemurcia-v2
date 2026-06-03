@@ -1,5 +1,20 @@
 # Surf Nature Murcia v2
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Business Goal](#business-goal)
+- [Objectives](#objectives)
+- [Project Scope](#project-scope)
+- [Technologies](#technologies)
+- [Repository Structure](#repository-structure)
+- [Development Approach](#development-approach)
+- [Learning Journey](#learning-journey)
+- [Milestones](#milestones)
+- [Status](#status)
+- [Current Focus](#current-focus)
+- [Next Steps](#next-steps)
+
 ## Project Overview
 
 Complete redesign and redevelopment of the Surf Nature Murcia website.
@@ -94,33 +109,78 @@ The goal is to demonstrate not just the final result, but the complete professio
 
 ---
 
+## Milestones
+
+### 🟢 Milestone 1 — Project Foundation
+
+Completed
+
+* Repository initialized
+* Git and GitHub workflow established
+* Development environment configured
+* Project structure defined
+* Initial README documentation created
+
+### 🟢 Milestone 2 — Homepage Foundation
+
+Completed
+
+* Hero section implemented
+* Activities section created
+* About section created
+* CTA section implemented
+* Footer structure implemented
+* Initial responsive layout established
+
+### 🟢 Milestone 3 — Branding & Navigation
+
+Completed
+
+* Surf Nature Murcia logo integrated
+* Company name incorporated into header
+* Home navigation implemented
+* Logo linked to homepage
+* Sticky header navigation improved
+* Anchor scrolling optimized with scroll-margin-top
+* Hero responsive positioning refined across breakpoints
+
+---
+
 ## Status
 
-🟢 Repository initialized  
-🟢 Development environment configured  
-🟢 Project structure created  
-🟢 Design system foundation implemented  
-🟢 Initial homepage UI completed  
-🔄 UI refinement and polish phase in progress  
-🔄 UX audit and improvement phase ongoing  
+🟢 Repository initialized
+🟢 Development environment configured
+🟢 Project structure created
+🟢 Design system foundation implemented
+🟢 Initial homepage UI completed
+🟢 Hero section integrated with custom imagery
+🟢 Activities section implemented
+🟢 About section implemented
+🟢 Header branding implemented (logo + company name)
+🟢 Navigation structure implemented
+🟢 Anchor navigation optimized for sticky header
+🟢 Hero responsive positioning optimized
+🔄 UI refinement and polish phase in progress
+🔄 UX audit and improvement phase ongoing
 
 ---
 
 ## Current Focus
 
-Refining visual hierarchy and spacing  
-Improving perceived quality and premium feel  
-Enhancing UX clarity and conversion flow  
-Strengthening brand identity and surf lifestyle positioning  
-Preparing interface for portfolio-level presentation  
+- Refining responsive behaviour across breakpoints
+- Improving navigation usability and accessibility
+- Strengthening visual consistency and brand identity
+- Preparing scalable component structure for future pages
+- Documenting development decisions and project evolution
 
 ---
 
 ## Next Steps
 
-UI polish and visual depth enhancement  
-Improved hero section with stronger branding impact  
-Image integration and visual storytelling  
-Microinteractions and hover improvements  
-Mobile-first UX optimization  
-Expansion into full site structure (About, Activities, Contact)  
+- Responsive navigation improvements (mobile menu)
+- Additional homepage UX refinements
+- Image optimization and performance improvements
+- SEO structure enhancements
+- Accessibility review and testing
+- Expansion into full site structure (About, Activities, Contact, Booking)
+- Portfolio-quality documentation and case study preparation
