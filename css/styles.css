@@ -12,6 +12,13 @@ html {
   scroll-behavior: smooth;
 }
 
+#home,
+#actividades,
+#nosotros,
+#contacto {
+  scroll-margin-top: 100px;
+}
+
 body {
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   color: #1c1c1c;
@@ -59,9 +66,28 @@ body {
   padding: 16px 0;
 }
 
-.logo {
-  font-size: 18px;
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  text-decoration: none;
+  color: var(--primary);
   font-weight: 700;
+  font-size: 20px;
+
+  white-space: nowrap;
+}
+
+.logo span {
+  white-space: nowrap;
+}
+
+.logo img {
+  height: 75px;
+  width: auto;
+  display: block;
+  flex-shrink: 0;
 }
 
 .nav a {
@@ -69,6 +95,12 @@ body {
   text-decoration: none;
   color: var(--text);
   font-weight: 500;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 .nav a:hover {
@@ -347,9 +379,10 @@ body {
   }
 
   .header__content {
-    flex-direction: column;
-    gap: 10px;
-  }
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
   .nav a {
     margin-left: 10px;
