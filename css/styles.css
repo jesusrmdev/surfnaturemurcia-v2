@@ -415,10 +415,6 @@ body {
 }
 
 .nav {
-  display: none;
-}
-
-.nav.active {
   display: flex;
   flex-direction: column;
 
@@ -434,5 +430,20 @@ body {
   box-shadow: 0 10px 30px rgba(0,0,0,0.12);
 
   gap: 12px;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease,
+    visibility 0.2s ease;
+}
+
+.nav.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 }
