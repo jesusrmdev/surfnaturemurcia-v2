@@ -144,6 +144,16 @@ Completed
 * Anchor scrolling optimized with scroll-margin-top
 * Hero responsive positioning refined across breakpoints
 
+### 🟢 Milestone 4 — Content & Visual Enhancement
+
+Completed
+
+* Activities copy rewritten with conversion-focused messaging
+* Activity cards enhanced with real photography
+* Individual image positioning optimized per activity
+* About section content refined and strengthened
+* Git workflow improved with feature branches, pull requests and merge reviews
+
 ---
 
 ## Status
@@ -160,6 +170,11 @@ Completed
 🟢 Navigation structure implemented
 🟢 Anchor navigation optimized for sticky header
 🟢 Hero responsive positioning optimized
+🟢 Activities section enhanced with real photography
+🟢 Activities copy optimized for conversion
+🟢 About section content refined
+🟢 Feature branch workflow validated (PR + Merge process)
+
 🔄 UI refinement and polish phase in progress
 🔄 UX audit and improvement phase ongoing
 
@@ -167,20 +182,23 @@ Completed
 
 ## Current Focus
 
-- Refining responsive behaviour across breakpoints
-- Improving navigation usability and accessibility
-- Strengthening visual consistency and brand identity
-- Preparing scalable component structure for future pages
-- Documenting development decisions and project evolution
+* Reviewing responsive behaviour across all breakpoints
+* Refining mobile navigation experience
+* Improving visual consistency and spacing
+* Preparing SEO and accessibility improvements
+* Continuing project documentation
+
 
 ---
 
 ## Next Steps
 
-- Responsive navigation improvements (mobile menu)
-- Additional homepage UX refinements
-- Image optimization and performance improvements
-- SEO structure enhancements
-- Accessibility review and testing
-- Expansion into full site structure (About, Activities, Contact, Booking)
-- Portfolio-quality documentation and case study preparation
+* Complete responsive review (mobile and tablet)
+* Validate mobile navigation usability
+* Improve CTA section effectiveness
+* Refine footer structure and content
+* Implement SEO fundamentals
+* Review accessibility compliance
+* Optimize image delivery and performance
+* Expand into additional site pages
+

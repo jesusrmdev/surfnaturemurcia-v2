@@ -13,12 +13,19 @@ The format is inspired by Keep a Changelog and follows a simplified structure su
 * Mobile menu automatic closing when selecting a navigation link
 * Mobile menu toggle icon state (☰ / ✕)
 * Smooth mobile menu open and close transitions
+* Real photography for activity cards
+* Activity-specific image positioning
+* Feature branch and pull request workflow
 
 ### Changed
 
 * Header navigation adapted for mobile devices
 * Navigation UX improved for touch interactions
 * Responsive header layout refined
+* Activities copy rewritten with conversion-focused messaging
+* Activities section visual presentation improved
+* About section content refined and strengthened
+* Homepage visual hierarchy improved
 
 ### Fixed
 
