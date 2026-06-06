@@ -432,7 +432,7 @@ body {
   .hero__title {
     font-size: 32px;
   }
-
+  
   .header__content {
   flex-direction: row;
   justify-content: space-between;
@@ -444,7 +444,7 @@ body {
   }
 
   .hero__content {
-    transform: translateY(-20vh);
+    transform: translateY(-15vh);
   }
 
   .menu-toggle {
@@ -483,4 +483,14 @@ body {
   visibility: visible;
   transform: translateY(0);
 }
+
+.hero__cta {
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero__cta .btn {
+  width: 230px;
+}
+
 }
