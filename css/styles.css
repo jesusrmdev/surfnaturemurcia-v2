@@ -292,6 +292,10 @@ body {
   transition: 0.25s ease;
 }
 
+.social-card {
+  padding: 32px;
+}
+
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 30px rgba(0,0,0,0.08);
@@ -358,12 +362,107 @@ body {
   object-position: center 100%;
 }
 
+
+
+
+/* =========================
+   SOCIAL
+========================= */
+
+.social-intro {
+text-align: center;
+
+max-width: 700px;
+
+margin:
+0 auto
+32px;
+
+color: #555;
+}
+
+.social-card {
+  padding: 42px;
+
+  min-height: 300px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+.social-card:hover {
+  transform: translateY(-4px);
+}
+
+.social-card__header {
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+
+  margin-bottom: 18px;
+}
+
+.social-card__header h3 {
+  margin: 0;
+}
+
+.social-card .btn {
+  width: fit-content;
+
+  margin-top: 24px;
+}
+
+.social-icon {
+  width: 50px;
+
+  height: 50px;
+
+  border-radius: 12px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  color: white;
+
+  flex-shrink: 0;
+}
+
+.social-icon svg {
+  width: 24px;
+
+  height: 24px;
+}
+
+.social-icon--instagram {
+  background:
+    linear-gradient(
+      135deg,
+      #f58529,
+      #dd2a7b,
+      #8134af
+    );
+}
+
+.social-icon--facebook {
+  background:
+    #1877f2;
+}
+
+
 /* =========================
    CTA
 ========================= */
 
 .cta {
-  padding: 80px 0;
+  padding: 60px 0;
   text-align: center;
   background: linear-gradient(135deg, var(--primary), var(--accent));
   color: #fff;
