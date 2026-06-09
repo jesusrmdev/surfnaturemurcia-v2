@@ -15,7 +15,14 @@ The format is inspired by Keep a Changelog and follows a simplified structure su
 * Smooth mobile menu open and close transitions
 * Real photography for activity cards
 * Activity-specific image positioning
-* Feature branch and pull request workflow
+* WhatsApp booking integration
+* Instagram profile integration
+* Facebook page integration
+* Email contact action
+* Dedicated social proof section
+* Official social platform icons
+* Social call-to-action cards
+
 
 ### Changed
 
@@ -26,11 +33,20 @@ The format is inspired by Keep a Changelog and follows a simplified structure su
 * Activities section visual presentation improved
 * About section content refined and strengthened
 * Homepage visual hierarchy improved
+* Homepage conversion flow strengthened
+* Contact visibility improved
+* Footer contact structure refined
+* Social visibility moved beyond footer
+* Homepage engagement sections reorganized
+
 
 ### Fixed
 
 * Mobile navigation remaining open after section navigation
 * Mobile menu positioning issues on smaller screens
+* Activity card structure issue affecting visual layout
+* Contact actions validated across homepage
+
 
 ---
 

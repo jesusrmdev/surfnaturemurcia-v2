@@ -154,6 +154,20 @@ Completed
 * About section content refined and strengthened
 * Git workflow improved with feature branches, pull requests and merge reviews
 
+### 🟢 Milestone 5 — Contact Integration & Social Proof
+
+Completed
+
+* WhatsApp booking flow integrated
+* Instagram profile connected
+* Facebook page connected
+* Email contact action implemented
+* Dedicated social proof section created
+* Official social platform icons integrated
+* Homepage conversion paths strengthened
+* Footer contact links completed
+
+
 ---
 
 ## Status
@@ -174,31 +188,40 @@ Completed
 🟢 Activities copy optimized for conversion
 🟢 About section content refined
 🟢 Feature branch workflow validated (PR + Merge process)
+🟢 WhatsApp booking integrated
+🟢 Social proof section implemented
+🟢 Instagram and Facebook connected
+🟢 Email contact integrated
+🟢 Homepage conversion layer implemented
 
-🔄 UI refinement and polish phase in progress
-🔄 UX audit and improvement phase ongoing
+🔄 Responsive optimization in progress
+🔄 SEO and accessibility preparation in progress
 
 ---
 
 ## Current Focus
 
-* Reviewing responsive behaviour across all breakpoints
-* Refining mobile navigation experience
-* Improving visual consistency and spacing
-* Preparing SEO and accessibility improvements
-* Continuing project documentation
+* Responsive validation across devices
+* SEO foundations and semantic improvements
+* Accessibility review and refinement
+* Performance and image optimization
+* Preparing the first deployment-ready version
+
 
 
 ---
 
 ## Next Steps
 
-* Complete responsive review (mobile and tablet)
-* Validate mobile navigation usability
-* Improve CTA section effectiveness
-* Refine footer structure and content
-* Implement SEO fundamentals
-* Review accessibility compliance
-* Optimize image delivery and performance
-* Expand into additional site pages
+## Next Steps
+
+* Final responsive adjustments
+* Implement SEO metadata and structure
+* Improve accessibility compliance
+* Optimize image delivery and loading performance
+* Prepare deployment workflow
+* Launch first private production version
+* Expand into additional website pages
+* Prepare portfolio case study documentation
+
 
