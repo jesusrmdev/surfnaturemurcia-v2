@@ -65,3 +65,23 @@ The format is inspired by Keep a Changelog and follows a simplified structure su
 * Logo implementation
 * Sticky header navigation
 * Anchor navigation system
+
+## [0.2.0] - Base SEO Implementation
+
+### Added
+
+* SEO title optimization
+* Meta description implementation
+* Robots meta directives
+* Canonical URL configuration
+* Open Graph metadata
+* Twitter Card metadata
+* Theme color configuration
+* Semantic HTML improvements
+* Main landmark implementation
+* Navigation accessibility improvements
+* Section semantic labeling
+* robots.txt configuration
+* sitemap.xml generation
+* Social sharing optimization
+* Base indexation preparation
