@@ -85,3 +85,4 @@ The format is inspired by Keep a Changelog and follows a simplified structure su
 * sitemap.xml generation
 * Social sharing optimization
 * Base indexation preparation
+* Visible keyboard focus styles using `:focus-visible`
