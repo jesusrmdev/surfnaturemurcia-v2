@@ -167,6 +167,18 @@ Completed
 * Homepage conversion paths strengthened
 * Footer contact links completed
 
+### 🟢 Milestone 6 — Preview Deployment
+
+Completed
+
+* Cloudflare Pages configured
+* GitHub repository connected
+* Automatic deployment from `main` enabled
+* Preview environment published
+* Initial deployment workflow validated
+* Public preview URL generated
+* Production domain connection planned
+
 
 ---
 
@@ -193,7 +205,9 @@ Completed
 🟢 Instagram and Facebook connected
 🟢 Email contact integrated
 🟢 Homepage conversion layer implemented
+🟢 Preview deployment completed on Cloudflare Pages
 
+🔄 Production domain configuration pending
 🔄 Responsive optimization in progress
 🔄 SEO and accessibility preparation in progress
 
@@ -207,11 +221,7 @@ Completed
 * Performance and image optimization
 * Preparing the first deployment-ready version
 
-
-
 ---
-
-## Next Steps
 
 ## Next Steps
 
