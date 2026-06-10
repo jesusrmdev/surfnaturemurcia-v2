@@ -2,9 +2,105 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Clases de surf en Murcia | Surf Nature Murcia</title>
-  <link rel="stylesheet" href="css/styles.css" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <meta
+  name="theme-color"
+  content="#0D3B66"
+  />
+
+  <title>
+    Clases de Surf en Murcia | Surf Nature Murcia
+  </title>
+
+  <meta
+    name="description"
+    content="Clases de surf en Murcia para todas las edades y niveles. Aprende en un entorno natural con Surf Nature Murcia y reserva fácilmente por WhatsApp."
+  />
+
+  <meta
+    name="robots"
+    content="index, follow"
+  />
+
+  <!-- Canonical -->
+  <link
+    rel="canonical"
+    href="https://surfnaturemurcia.com/"
+  />
+
+  <!-- Favicon -->
+  <link
+    rel="icon"
+    type="image/png"
+    href="assets/images/logo.png"
+  />
+
+  <!-- Open Graph -->
+  <meta
+    property="og:type"
+    content="website"
+  />
+
+  <meta
+    property="og:title"
+    content="Clases de Surf en Murcia | Surf Nature Murcia"
+  />
+
+  <meta
+  property="og:locale"
+  content="es_ES"
+  />
+
+  <meta
+    property="og:description"
+    content="Aprende surf en Murcia en un entorno natural. Actividades para todos los niveles."
+  />
+
+  <meta
+    property="og:url"
+    content="https://surfnaturemurcia.com/"
+  />
+
+  <meta
+  property="og:site_name"
+  content="Surf Nature Murcia"
+  />
+
+  <meta
+    property="og:image"
+    content="https://surfnaturemurcia.com/assets/images/hero.jpg"
+  />
+
+  <meta
+  property="og:image:alt"
+  content="Clase de surf en Murcia con Surf Nature Murcia"
+  />
+
+  <!-- Twitter -->
+  <meta
+    name="twitter:card"
+    content="summary_large_image"
+  />
+
+  <meta
+    name="twitter:title"
+    content="Clases de Surf en Murcia | Surf Nature Murcia"
+  />
+
+  <meta
+    name="twitter:description"
+    content="Aprende surf en Murcia con Surf Nature Murcia."
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/styles.css"
+  />
 </head>
 
 <body>
@@ -17,17 +113,29 @@
 
       <div class="logo">
         <a href="#home">
-          <img src="assets/images/logo.png" alt="Surf Nature Murcia">
+          <img
+          src="assets/images/logo.png"
+          alt=""
+          width="500"
+          height="500"
+          >
           <span>Surf Nature Murcia</span>
         </a>
       </div>
 
-      <button class="menu-toggle">
+      <button
+        class="menu-toggle"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+      >
         ☰
       </button>
 
-      <nav class="nav">
-        <a href="#home">Home</a>
+      <nav 
+        class="nav"
+        aria-label="Navegación principal"
+      >
+        <a href="#home" aria-label="Ir al inicio">Inicio</a>
         <a href="#actividades">Actividades</a>
         <a href="#nosotros">Nosotros</a>
         <a href="#contacto">Contacto</a>
@@ -36,16 +144,25 @@
     </div>
   </header>
 
+  <main lang="es">
+
   <!-- =========================
        HERO
   ========================== -->
-  <section id="home" class="hero">
+  <section
+    id="home"
+    class="hero"
+    aria-labelledby="hero-title"
+  >
 
     <div class="hero__overlay"></div>
 
     <div class="container hero__content">
 
-      <h1 class="hero__title">Clases de surf en Murcia</h1>
+      <h1 
+        id="hero-title"
+        class="hero__title">Clases de surf en Murcia
+      </h1>
 
       <p class="hero__subtitle">
         Aprende a surfear en un entorno natural
@@ -60,8 +177,9 @@
         <a 
           href="https://wa.me/34620659099?text=Hola%2C%20me%20gustaría%20recibir%20información%20sobre%20las%20clases%20de%20surf."
           class="btn btn-secondary"
+          aria-label="Reservar clase de surf por WhatsApp"
           target="_blank"
-          rel="noopener">
+          rel="noopener noreferrer">
           Reservar por WhatsApp
         </a>
       </div>
@@ -101,7 +219,7 @@
         href="https://wa.me/34620659099?text=Hola%2C%20me%20gustaría%20recibir%20información%20sobre%20las%20clases%20de%20surf."
         class="btn btn-primary"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
       >
         Reservar iniciación
       </a>
@@ -132,7 +250,7 @@
         href="https://wa.me/34620659099?text=Hola%2C%20me%20gustaría%20recibir%20información%20sobre%20las%20clases%20de%20surf."
         class="btn btn-primary"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
       >
         Reservar perfeccionamiento
       </a>
@@ -163,7 +281,7 @@
         href="https://wa.me/34620659099?text=Hola%2C%20me%20gustaría%20recibir%20información%20sobre%20las%20clases%20de%20surf."
         class="btn btn-primary"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
       >
         Reservar surf camp
       </a>
@@ -198,7 +316,7 @@
       href="https://wa.me/34620659099?text=Hola%2C%20me%20gustaría%20recibir%20información%20sobre%20las%20clases%20de%20surf."
       class="btn btn-primary"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
     >
       Alquilar material
     </a>
@@ -214,7 +332,7 @@
   <section id="nosotros" class="section section--alt">
   <div class="container">
 
-    <h2 class="section__title">Nosotros</h2>
+    <h2 class="section__title">Sobre nosotros</h2>
 
     <div class="grid">
 
@@ -245,14 +363,21 @@
 </section>
 
 <!-- =========================
-     SOCIAL
+     SOCIAL - Síguenos
 ========================= -->
 
-<section class="section">
+<section 
+  id="siguenos"
+  class="section"
+  aria-labelledby="siguenos-title"
+>
 
   <div class="container">
 
-<h2 class="section__title">
+<h2 
+  id="siguenos-title"
+  class="section__title"
+>
   Síguenos
 </h2>
 
@@ -290,7 +415,7 @@
       href="https://instagram.com/surfnaturemurcia"
       class="btn btn-primary"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
     >
       Ver Instagram
     </a>
@@ -325,7 +450,7 @@
       href="https://www.facebook.com/surfnaturemurcia/"
       class="btn btn-primary"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
     >
       Ver Facebook
     </a>
@@ -342,16 +467,21 @@
   <!-- =========================
        CTA FINAL
   ========================== -->
-  <section class="cta">
+  <section 
+    class="cta"
+    aria-labelledby="cta-title"
+  >
     <div class="container">
 
-      <h2>¿Listo para empezar a surfear?</h2>
+      <h2 id="cta-title">
+        ¿Listo para empezar a surfear?
+      </h2>
 
       <a
         href="https://wa.me/34620659099?text=Hola%2C%20me%20gustaría%20recibir%20información%20sobre%20las%20clases%20de%20surf."
         class="btn btn-primary"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
       >
         Reservar clase por WhatsApp
       </a>
@@ -359,10 +489,16 @@
     </div>
   </section>
 
+  </main>
+
   <!-- =========================
        FOOTER
   ========================== -->
-  <footer class="footer" id="contacto">
+  <footer 
+    class="footer"  
+    id="contacto"
+    aria-label="Pie de página"
+    >
     <div class="container">
 
       <p>Surf Nature Murcia © 2026</p>
@@ -372,7 +508,7 @@
         <a
           href="https://instagram.com/surfnaturemurcia"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           Instagram
         </a>
@@ -380,7 +516,7 @@
         <a 
           href="https://www.facebook.com/surfnaturemurcia/"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           Facebook
         </a>
