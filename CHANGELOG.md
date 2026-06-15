@@ -8,6 +8,14 @@ The format is inspired by Keep a Changelog and follows a simplified structure su
 
 ### Added
 
+-
+
+---
+
+## [1.0.0] - First Production Release
+
+### Added
+
 * Responsive mobile navigation menu
 * JavaScript menu toggle functionality
 * Mobile menu automatic closing when selecting a navigation link
@@ -22,7 +30,14 @@ The format is inspired by Keep a Changelog and follows a simplified structure su
 * Dedicated social proof section
 * Official social platform icons
 * Social call-to-action cards
-
+* Cloudflare Pages deployment
+* Production domain connection
+* Automatic deployment pipeline
+* Production HTTPS / SSL
+* Production environment validation
+* Desktop production QA
+* Mobile production QA
+* WWW redirect validation
 
 ### Changed
 
@@ -38,7 +53,9 @@ The format is inspired by Keep a Changelog and follows a simplified structure su
 * Footer contact structure refined
 * Social visibility moved beyond footer
 * Homepage engagement sections reorganized
-
+* Website migrated from legacy hosting
+* Production traffic routed through Cloudflare
+* Deployment workflow moved to GitHub → Cloudflare Pages
 
 ### Fixed
 
@@ -46,25 +63,10 @@ The format is inspired by Keep a Changelog and follows a simplified structure su
 * Mobile menu positioning issues on smaller screens
 * Activity card structure issue affecting visual layout
 * Contact actions validated across homepage
-
+* Domain routing to production environment
+* Production accessibility baseline validation
 
 ---
-
-## [0.1.0] - Initial Homepage Foundation
-
-### Added
-
-* Project structure initialization
-* Homepage hero section
-* Activities section
-* About section
-* CTA section
-* Footer section
-* Responsive layout foundation
-* Surf Nature Murcia branding integration
-* Logo implementation
-* Sticky header navigation
-* Anchor navigation system
 
 ## [0.2.0] - Base SEO Implementation
 
@@ -86,3 +88,21 @@ The format is inspired by Keep a Changelog and follows a simplified structure su
 * Social sharing optimization
 * Base indexation preparation
 * Visible keyboard focus styles using `:focus-visible`
+
+---
+
+## [0.1.0] - Initial Homepage Foundation
+
+### Added
+
+* Project structure initialization
+* Homepage hero section
+* Activities section
+* About section
+* CTA section
+* Footer section
+* Responsive layout foundation
+* Surf Nature Murcia branding integration
+* Logo implementation
+* Sticky header navigation
+* Anchor navigation system
