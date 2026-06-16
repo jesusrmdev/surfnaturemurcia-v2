@@ -606,3 +606,22 @@ color: #555;
   outline: 3px solid #0D3B66;
   outline-offset: 4px;
 }
+
+.activity-includes,
+.activity-duration {
+  margin: 0.35rem 0;
+
+  font-size: 0.92rem;
+
+  color: var(--color-text-light);
+
+  line-height: 1.4;
+}
+
+.activity-includes {
+  font-weight: 600;
+}
+
+.activity-duration {
+  font-weight: 500;
+}
