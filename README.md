@@ -61,7 +61,7 @@ The project includes:
 The repository structure will evolve during development:
 
 ```text
-surfnaturemurcia-v2/
+surf-nature-murcia-v2/
 │
 ├── assets/
 ├── css/
